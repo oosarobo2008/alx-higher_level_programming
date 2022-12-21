@@ -2,7 +2,7 @@
 # 0-square.py by Ehoneah Obed
 """A module that defines a square """
 
-class Square:    
+class Square:
     """A class that represents a square"""
     def __init__(self, size=0):
         """Initializing this square class
@@ -12,7 +12,7 @@ class Square:
             TypeError: if size is not integer
             ValueError: if size is less than zero
         """
-        if not isinstance(size, int): 
+        if not isinstance(size, int):
             raise TypeError('size must be an integer')
         if size < 0:
             raise ValueError('size must be >= 0')
